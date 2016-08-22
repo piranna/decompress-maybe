@@ -1,0 +1,33 @@
+{
+  "name": "decompress-maybe",
+  "version": "1.0.0",
+  "description": "Transform stream that decompress its input if it's compressed, and echoes it if not",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piranna/decompress-maybe.git"
+  },
+  "keywords": [
+    "decompress",
+    "gunzip",
+    "bzip2",
+    "stream"
+  ],
+  "author": "Jesús Leganés-Combarro 'piranna' <piranna@gmail.com>",
+  "collaborators":
+  [
+    "Mathias Buus (@mafintosh)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piranna/decompress-maybe/issues"
+  },
+  "homepage": "https://github.com/piranna/decompress-maybe#readme",
+  "dependencies": {
+    "bzip2-maybe": "^1.0.0",
+    "gunzip-maybe": "^1.3.1",
+    "pumpify": "^1.3.5"
+  }
+}
